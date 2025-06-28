@@ -2,17 +2,17 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 /*
-	* Create By Naze
-	* Follow https://github.com/nazedev
-	* Whatsapp : https://whatsapp.com/channel/0029VaWOkNm7DAWtkvkJBK43
+	* Create By Pasya
+	* Follow https://github.com/Rvaldoo
+	* Whatsapp : https://whatsapp.com/channel
 */
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6282113821188'] //['628','628'] 2 owner atau lebih
+global.owner = ['6283144905153'] //['6281220491596','62882001654481'] 2 owner atau lebih
 global.packname = 'Bot WhatsApp'
-global.author = 'Nazedev'
-global.botname = 'Naze Bot'
+global.author = 'PasyaVoldigoad'
+global.botname = 'Kujirai Bot'
 global.listprefix = ['+','!','.']
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
 global.tempatDB = 'database.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
@@ -31,18 +31,18 @@ global.fake = {
 global.my = {
 	yt: 'https://youtube.com/c/Nazedev',
 	gh: 'https://github.com/nazedev',
-	gc: 'https://chat.whatsapp.com/B5qJIwZHm4VEYZJQE6iMwy',
+	gc: 'https://wa',
 	ch: '120363250409960161@newsletter',
 }
 
 global.limit = {
-	free: 20,
+	free: 100,
 	premium: 999,
 	vip: 9999
 }
 
 global.money = {
-	free: 10000,
+	free: 100000,
 	premium: 1000000,
 	vip: 10000000
 }
@@ -54,7 +54,7 @@ global.mess = {
 	botAdmin: 'Bot Bukan Admin!',
 	group: 'Gunakan Di Group!',
 	private: 'Gunakan Di Privat Chat!',
-	limit: 'Limit Anda Telah Habis!',
+	limit: 'Limit Lu Abis Kocak!',
 	prem: 'Khusus User Premium!',
 	wait: 'Loading...',
 	error: 'Error!',
